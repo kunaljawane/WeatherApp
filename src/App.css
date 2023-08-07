@@ -516,7 +516,7 @@ div#txt {
     font-size: 40px;
   }
   .city {
-    min-height: 450px;
+    display: none;
   }
   .title h2 {
     font-size: 25px;
