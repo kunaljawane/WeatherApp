@@ -1,11 +1,4 @@
-/*--
-	Author: W3layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 
-/*-- Reset Code --*/
 
 html,
 body,
@@ -252,7 +245,7 @@ h1 {
 }
 
 .title h2 {
-  color: #fff;
+  color: black;
   font-size: 30px;
   font-weight: bold;
 }
@@ -260,7 +253,7 @@ h1 {
 .title h3 {
   font-size: 25px;
   font-weight: bold;
-  color: #eee;
+  color: black;
   margin-top: 0px;
   text-align: right;
 }
@@ -268,7 +261,7 @@ h1 {
 .date-time {
   position: absolute;
   bottom: 0;
-  color: #fff;
+  color: black;
   width: 90%;
   padding: 0 30px 10px 30px;
   font-family: "Oxygen", sans-serif;
@@ -320,7 +313,7 @@ div#txt {
 .today-weather h3 {
   text-transform: capitalize;
   font-size: 50px;
-  color: #fff;
+  color: white;
   width: 80%;
   margin: 0 auto 10px;
   padding-bottom: 10px;
@@ -334,7 +327,7 @@ div#txt {
   line-height: 39px;
   border-width: thin;
   border-bottom: 1px solid #777;
-  color: #eee;
+  color: white;
   font-weight: 600;
   text-align: left;
   padding-left: 20px;
@@ -594,7 +587,7 @@ div#txt {
     letter-spacing: 0;
   }
   .city {
-    min-height: 315px;
+    display: none;
   }
   .dmy {
     margin-bottom: 30px;
@@ -605,7 +598,9 @@ div#txt {
   .temperature p {
     padding-bottom: 15px;
   }
+  
 }
+
 
 /*-- //Responsive Code --*/
 .cityHead {
