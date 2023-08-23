@@ -29,7 +29,7 @@ function Forcast(props) {
   function checkTime(i) {
     if (i < 10) {
       i = "0" + i;
-    } // add zero in front of numbers < 10
+    } 
     return i;
   }
 
@@ -96,18 +96,7 @@ function Forcast(props) {
                   {Math.round(weather.main.humidity)}%
                 </span>
               </li>
-              {/* <li>
-                Visibility{" "}
-                <span className="temp">
-                  {Math.round(weather.visibility)} mi
-                </span>
-              </li>
-              <li>
-                Wind Speed{" "}
-                <span className="temp">
-                  {Math.round(weather.wind.speed)} Km/h
-                </span>
-              </li> */}
+              
             </div>
           ) : (
             <li>
